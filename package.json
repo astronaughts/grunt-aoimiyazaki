@@ -1,0 +1,26 @@
+{
+  "name": "grunt-aoimiyazaki",
+  "version": "1.0.0",
+  "description": "earth music & ecology",
+  "main": "grunt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://astronaughts@github.com/astronaughts/grunt-aoimiyazaki.git"
+  },
+  "keywords": [
+    "grunt.js",
+    "gruntplugin"
+  ],
+  "author": "astronaughts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/astronaughts/grunt-aoimiyazaki/issues"
+  },
+  "dependencies": {
+    "play": "~0.5.0",
+    "grunt": "~0.4.1"
+  }
+}
