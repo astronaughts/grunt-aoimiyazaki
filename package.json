@@ -1,6 +1,6 @@
 {
   "name": "grunt-aoimiyazaki",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "earth music & ecology",
   "main": "grunt.js",
   "scripts": {
@@ -12,7 +12,8 @@
   },
   "keywords": [
     "grunt.js",
-    "gruntplugin"
+    "gruntplugin",
+    "aoi miyazaki"
   ],
   "author": "astronaughts",
   "license": "MIT",

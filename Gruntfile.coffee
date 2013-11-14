@@ -6,12 +6,16 @@
 # Licensed under the MIT license.
 ###
 module.exports = (grunt) ->
-  'use strict'
+    'use strict'
 
-  grunt.initConfig
-    aoimiyazaki:
-      earth_music_and_ecology:
-        file: './sounds/earth_music_and_ecology.mp3'
+    grunt.initConfig
+        aoimiyazaki:
+            short: 'eme'
+            long: 'baseball'
+            old_version:
+                file: './sounds/earth_music_and_ecology.mp3'
 
-  grunt.loadTasks 'tasks'
-  grunt.registerTask 'default', [ 'aoimiyazaki:earth_music_and_ecology' ]
+    grunt.loadTasks 'tasks'
+    grunt.registerTask 'short', 'aoimiyazaki:short'
+    grunt.registerTask 'long', 'aoimiyazaki:long'
+    grunt.registerTask 'old_version', 'aoimiyazaki:old_version'
